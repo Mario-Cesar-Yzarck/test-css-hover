@@ -1,0 +1,72 @@
+.container {    
+    display: flex;
+    margin: 30px 200px;
+}
+
+.div {
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+
+.span {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.span:hover {
+    opacity: 0.2;
+}
+
+#span1:hover + #img1 {
+    margin-top: 150px;
+    left: 33%;    
+    width: 50%;
+    height: 50%;
+    background-image: url(.//3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.webp);
+    position: absolute;
+}
+
+#span2:hover + #img2 {
+    margin-top: 150px;
+    left: 33%;
+    width: 400px;
+    height: 400px;
+    background-image: url(./direitos-autorais-e-de-imagem.webp);
+    position: absolute;
+}
+
+#span3:hover + #img3 {
+    margin-top: 150px;
+    left: 33%;
+    width: 400px;
+    height: 400px;
+    background-image: url(./imagem-aproximada-em-tons-de-cinza-de-uma-aguia-careca-americana-em-um-fundo-escuro_181624-31795.webp);
+    position: absolute;
+}
+#span4:hover + #img4 {
+    margin-top: 150px;
+    left: 33%;
+    width: 400px;
+    height: 400px;
+    background-image: url(./3d-rendem-de-uma-mesa-de-madeira-com-uma-imagem-defocussed-de-um-barco-em-um-lago_1048-3432.webp);
+    position: absolute;
+}
+#span5:hover + #img5 {
+    margin-top: 150px;
+    left: 33%;
+    width: 400px;
+    height: 400px;
+    background-image: url(./direitos-autorais-e-de-imagem.webp);
+    position: absolute;
+}
+#span6:hover + #img6 {
+    margin-top: 150px;
+    left: 33%;
+    width: 400px;
+    height: 400px;
+    background-image: url(./imagem-aproximada-em-tons-de-cinza-de-uma-aguia-careca-americana-em-um-fundo-escuro_181624-31795.webp);
+    position: absolute;
+}
